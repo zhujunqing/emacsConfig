@@ -1,0 +1,60 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("zjq" package nil nil [1 13])
+            ("BaseClass" type
+               (:members 
+                  ( ("book" variable
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [69 89])
+                    ("base" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [94 154])
+                    ("test" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [159 219]))                  
+                :type "class")
+                nil [48 221])
+            ("SubClass" type
+               (:typemodifiers ("public")
+                :superclasses "BaseClass"
+                :members 
+                  ( ("book" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [268 296])
+                    ("test" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [301 361])
+                    ("sub" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [366 424])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [454 467]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [430 777]))                  
+                :type "class")
+                nil [223 779]))          
+      :file "SubClass.java"
+      :pointmax 780
+      :fsize 896
+      :lastmodtime '(24192 37905 181132 236000)
+      :unmatched-syntax nil))
+  :file "!Users!jessie!java_workspace_new!crazy_java8!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

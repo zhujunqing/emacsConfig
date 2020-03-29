@@ -35,7 +35,11 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (mvn javap-mode jdee jdecomp javadoc-lookup java-snippets java-imports js2-refactor company monokai-theme hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell popwin web-mode))))
+    (dash-at-point dash mvn javap-mode jdee jdecomp javadoc-lookup java-snippets java-imports js2-refactor company monokai-theme hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell popwin web-mode)))
+ '(popwin:popup-window-position (quote right))
+ '(popwin:popup-window-width 90)
+ '(show-paren-mode t)
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

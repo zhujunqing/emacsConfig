@@ -18,6 +18,8 @@
 (setq recentf-max-menu-items 10)
 (global-set-key "\C-x\ \C-r" 'recentf-open-files)
 
+(set-default-font "-*-Menlo-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1")
+
 
 
 

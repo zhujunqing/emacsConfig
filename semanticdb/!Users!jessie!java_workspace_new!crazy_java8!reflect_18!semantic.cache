@@ -1,0 +1,110 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("zjq" package nil nil [1 13])
+            ("java.io.*" include nil nil [48 65])
+            ("java.lang.Process" include nil nil [66 91])
+            ("java.lang.reflect.*" include nil nil [92 119])
+            ("CompileClassLoader" type
+               (:typemodifiers ("public")
+                :superclasses "ClassLoader"
+                :members 
+                  ( ("getBytes" function
+                       (:throws ("Exception")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("filename" variable (:type "String") (reparse-symbol formal_parameters) [219 234]))                          
+                        :type "byte[]")
+                        (reparse-symbol class_member_declaration) [195 584])
+                    ("compile" function
+                       (:throws ("Exception")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("javaFile" variable (:type "String") (reparse-symbol formal_parameters) [637 652]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [613 1073])
+                    ("findClass" function
+                       (:constructor-flag t
+                        :throws ("ClassNotFoundException")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [1141 1152]))                          )
+                        (reparse-symbol class_member_declaration) [1131 2482])
+                    ("main" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [2526 2539]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2502 3216]))                  
+                :type "class")
+                nil [120 3218]))          
+      :file "CompileClassLoader.java"
+      :pointmax 3220
+      :fsize 3701
+      :lastmodtime '(24192 38960 434609 649000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("zjq" package nil nil [1 13])
+            ("A" type
+               (:members 
+                  ( ("a" variable
+                       (:typemodifiers ("public" "static")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [61 85]))                  
+                :type "class")
+                nil [48 87])
+            ("ATest1" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [137 150]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [120 289]))                  
+                :type "class")
+                nil [88 291]))          
+      :file "ATest1.java"
+      :pointmax 292
+      :fsize 291
+      :lastmodtime '(24192 18534 654002 636000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("zjq" package nil nil [1 13])
+            ("Demo1" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [62 75]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [38 111]))                  
+                :type "class")
+                nil [14 113]))          
+      :file "Demo1.java"
+      :pointmax 114
+      :fsize 119
+      :lastmodtime '(24192 12923 989803 356000)
+      :unmatched-syntax nil))
+  :file "!Users!jessie!java_workspace_new!crazy_java8!reflect_18!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

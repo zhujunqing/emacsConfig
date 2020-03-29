@@ -55,3 +55,37 @@ cd ..
 ls
 vim .emacs.d/init.el 
 ls
+ls
+ls
+cd ~
+ls
+cd .emacs.d/
+ls
+touch README.md
+emacs README.md 
+ls
+git init
+git status
+git add *
+git status
+git commit -m "update config"
+git push origin master
+git push origin master
+git branch
+rm -rf .git/
+git init
+git status
+git add *
+git commit -m "this is my emacs config"
+git remote add origin https://github.com/zhujunqing/emacsConfig.git
+git push -u origin master
+ls
+cd ..
+ls
+cd elpa/
+ls
+ls
+cd ..
+ls
+ll
+ls -al

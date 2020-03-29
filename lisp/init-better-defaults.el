@@ -107,5 +107,12 @@
 ;;ag 搜索
 (global-set-key (kbd "C-c p s") 'helm-do-ag-project-root)
 
-(provide 'init-better-defaults)
+(require 'dired-x)
+(setq dired-dwim-target t)
+
+(require 'reveal-in-osx-finder)
+(global-set-key (kbd "C-c z") 'reveal-in-osx-finder)
+
+
+;;(provide 'init-better-defaults)
 

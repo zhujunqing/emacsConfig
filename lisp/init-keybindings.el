@@ -18,4 +18,15 @@
 
 (global-set-key (kbd "C-c a") 'org-agenda)
 
+;;config imenu key 
+(global-set-key (kbd "M-s i") 'counsel-imenu)
+;;config expand-region
+(require 'expand-region)
+(global-set-key (kbd "C-=") 'er/expand-region)
+
+(global-set-key (kbd "C-c p s") 'helm-do-ag-project-root)
+
+(global-set-key (kbd "H-w") #'aya-create)
+(global-set-key (kbd "H-y") #'aya-expand)
+
 (provide 'init-keybindings)
