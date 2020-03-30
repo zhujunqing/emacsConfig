@@ -4,7 +4,13 @@
   (require 'package)
   (add-to-list 'package-archives '("gnu" . "http://elpa.emacs-china.org/gnu/") t)
   (add-to-list 'package-archives '("melpa" . "http://elpa.emacs-china.org/melpa/") t)
-  )
+;;  (add-to-list 'package-archives '("gnu" . "http://elpa.zilongshanren.com/gnu/") t)
+;;  (add-to-list 'package-archives '("melpa" . "http://elpa.zilongshanren.com/melpa/") t)
+;;  (add-to-list 'package-archives '("Marmalade" . "http://elpa.zilongshanren.com/marmalade/") t)
+;;  (add-to-list 'package-archives '("Org" . "http://elpa.zilongshanren.com/org/") t)
+(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+ )
 ;;add whatever packages you want here
 (defvar sandwich/packages '(
 			    company
@@ -28,6 +34,8 @@
 			    flycheck
 			    yasnippet
 			    auto-yasnippet
+			    winum
+			    evil 
 			    )  "Default packages")
 
 (setq package-selected-packages  sandwich/packages)
@@ -89,5 +97,13 @@
 
 ;;(yas-reload-all)
 (add-hook 'prog-mode-hook #'yas-minor-mode)
+
+;; Enable Evil
+(add-to-list 'load-path "~/.emacs.d/elpa/evil-20200304.1421")
+(require 'evil)
+(evil-mode 1)
+
+(require 'winum)
+(winum-mode)
 
 (provide 'init-packages)

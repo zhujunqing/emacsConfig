@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- flycheck-mode
- java-mode
- helm-ag
- iedit-mode
- customize-group
- imenu
- occur
+ package-install
+ package-refresh-contents
+ package-reinstall
+ package-install-file
+ package-show-package-list
+ list-packages
+ eshell
 )
 
 ;; ----- smex-data -----
 (
  (package-list-packages . 32)
- (eshell . 16)
+ (eshell . 17)
  (info . 1)
  (exit-minibuffer . 1)
  (package-autoremove . 3)
@@ -30,7 +30,7 @@
  (java-mode . 5)
  (java-imports-add-import-with-package . 3)
  (java-imports-add-import-dwim . 3)
- (list-packages . 4)
+ (list-packages . 5)
  (company-etags . 1)
  (company-elisp . 2)
  (package-menu-mark-upgrades . 2)
@@ -43,7 +43,7 @@
  (describe-font . 6)
  (dash-at-point-with-docset . 1)
  (package-install-selected-packages . 1)
- (package-install-file . 5)
+ (package-install-file . 6)
  (indent-region . 1)
  (reveal-in-osx-finder . 1)
  (iedit-mode . 2)
@@ -57,4 +57,8 @@
  (imenu . 1)
  (helm-ag . 2)
  (flycheck-mode . 3)
+ (package-install . 2)
+ (package-show-package-list . 1)
+ (package-reinstall . 1)
+ (package-refresh-contents . 1)
 )
