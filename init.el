@@ -33,9 +33,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(evil-want-C-u-scroll t)
+ '(jdee-server-dir "")
  '(package-selected-packages
    (quote
-    (window-number evil dash-at-point dash mvn javap-mode jdee jdecomp javadoc-lookup java-snippets java-imports js2-refactor company monokai-theme hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell popwin web-mode)))
+    (scala-mode company monokai-theme hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell popwin web-mode dash smex reveal-in-osx-finder expand-region iedit helm-ag flycheck yasnippet auto-yasnippet winum evil use-package)))
  '(popwin:popup-window-position (quote right))
  '(popwin:popup-window-width 90)
  '(show-paren-mode t)

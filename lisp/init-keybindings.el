@@ -31,4 +31,8 @@
 
 (global-set-key (kbd "C-w") 'backward-kill-word)
 
+(global-set-key (kbd "M-s e") 'iedit-mode)
+
+;; 使用f5键打开默认文件搜索
+(global-set-key [f5] 'projectile-find-file)
 (provide 'init-keybindings)

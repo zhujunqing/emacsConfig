@@ -47,12 +47,12 @@
                 :type "class")
                 nil [120 3218]))          
       :file "CompileClassLoader.java"
-      :pointmax 3220
-      :fsize 3701
-      :lastmodtime '(24192 38960 434609 649000)
+      :pointmax 3219
+      :fsize 3700
+      :lastmodtime '(24197 11534 631181 171000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
-      :major-mode java-mode
+      :major-mode jdee-mode
       :tags 
         '( ("zjq" package nil nil [1 13])
             ("A" type
@@ -67,21 +67,21 @@
                (:typemodifiers ("public")
                 :members 
                   ( ("main" function
-                       (:typemodifiers ("static")
+                       (:typemodifiers ("public" "static")
                         :arguments 
                           ( ("args" variable
                                (:dereference 1
                                 :type "String")
                                 (reparse-symbol formal_parameters) [137 150]))                          
                         :type "void")
-                        (reparse-symbol class_member_declaration) [120 289]))                  
+                        (reparse-symbol class_member_declaration) [113 289]))                  
                 :type "class")
                 nil [88 291]))          
       :file "ATest1.java"
       :pointmax 292
       :fsize 291
-      :lastmodtime '(24192 18534 654002 636000)
-      :unmatched-syntax nil)
+      :lastmodtime '(24197 11032 980525 80000)
+      :unmatched-syntax '((MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32) (MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32)))
     (semanticdb-table "semanticdb-table"
       :major-mode jdee-mode
       :tags 
@@ -103,8 +103,149 @@
       :file "Demo1.java"
       :pointmax 114
       :fsize 119
-      :lastmodtime '(24192 12923 989803 356000)
-      :unmatched-syntax nil))
+      :lastmodtime '(24197 11032 976589 525000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("zjq" package nil nil [119 131])
+            ("java.lang.reflect.*" include nil nil [166 193])
+            ("java.lang.annotation.*" include nil nil [194 224])
+            ("ClassTest" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("ClassTest" function
+                       (:constructor-flag t
+                        :typemodifiers ("private"))
+                        (reparse-symbol class_member_declaration) [484 508])
+                    ("ClassTest" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [542 553]))                          )
+                        (reparse-symbol class_member_declaration) [525 587])
+                    ("info" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [608 661])
+                    ("info" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("str" variable (:type "String") (reparse-symbol formal_parameters) [698 708]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [681 744])
+                    ("Inner" type (:type "class") (reparse-symbol class_member_declaration) [761 779])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [805 818]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [781 1003]))                  
+                :type "class")
+                nil [443 1005]))          
+      :file "ClassTest.java"
+      :pointmax 1006
+      :fsize 1247
+      :lastmodtime '(24197 11032 969638 412000)
+      :unmatched-syntax '((IDENTIFIER 437 . 442) (IDENTIFIER 431 . 436) (IDENTIFIER 406 . 417) (PAREN_BLOCK 386 . 405) (IDENTIFIER 369 . 386) (BRACE_BLOCK 335 . 355) (IDENTIFIER 330 . 335) (IDENTIFIER 319 . 329) (PAREN_BLOCK 287 . 318) (IDENTIFIER 277 . 287) (BRACE_BLOCK 274 . 276) (IDENTIFIER 270 . 274) (IDENTIFIER 259 . 269) (PAREN_BLOCK 246 . 258) (IDENTIFIER 235 . 246) (MULT 163 . 164) (DOT 162 . 163) (IDENTIFIER 156 . 162) (DOT 155 . 156) (IDENTIFIER 151 . 155) (DOT 150 . 151) (IMPORT 132 . 138) (STATIC 139 . 145) (IDENTIFIER 146 . 150) (IDENTIFIER 437 . 442) (IDENTIFIER 431 . 436) (IDENTIFIER 406 . 417) (PAREN_BLOCK 386 . 405) (IDENTIFIER 369 . 386) (BRACE_BLOCK 335 . 355) (IDENTIFIER 330 . 335) (IDENTIFIER 319 . 329) (PAREN_BLOCK 287 . 318) (IDENTIFIER 277 . 287) (BRACE_BLOCK 274 . 276) (IDENTIFIER 270 . 274) (IDENTIFIER 259 . 269) (PAREN_BLOCK 246 . 258) (IDENTIFIER 235 . 246) (MULT 163 . 164) (DOT 162 . 163) (IDENTIFIER 156 . 162) (DOT 155 . 156) (IDENTIFIER 151 . 155) (DOT 150 . 151) (IMPORT 132 . 138) (STATIC 139 . 145) (IDENTIFIER 146 . 150) (IDENTIFIER 437 . 442) (IDENTIFIER 431 . 436) (IDENTIFIER 406 . 417) (PAREN_BLOCK 386 . 405) (IDENTIFIER 369 . 386) (BRACE_BLOCK 335 . 355) (IDENTIFIER 330 . 335) (IDENTIFIER 319 . 329) (PAREN_BLOCK 287 . 318) (IDENTIFIER 277 . 287) (BRACE_BLOCK 274 . 276) (IDENTIFIER 270 . 274) (IDENTIFIER 259 . 269) (PAREN_BLOCK 246 . 258) (IDENTIFIER 235 . 246) (MULT 163 . 164) (DOT 162 . 163) (IDENTIFIER 156 . 162) (DOT 155 . 156) (IDENTIFIER 151 . 155) (DOT 150 . 151) (IMPORT 132 . 138) (STATIC 139 . 145) (IDENTIFIER 146 . 150)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("zjq" package nil nil [1 13])
+            ("Tester" type (:type "class") nil [48 122])
+            ("ClassLoaderTest" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:throws ("ClassNotFoundException")
+                        :typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [181 194]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [157 436]))                  
+                :type "class")
+                nil [123 438]))          
+      :file "ClassLoaderTest.java"
+      :pointmax 439
+      :fsize 492
+      :lastmodtime '(24197 11032 963458 514000)
+      :unmatched-syntax '((MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32) (MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32) (MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("zjq" package nil nil [1 13])
+            ("Hello_ClassLoader" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [108 121]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [84 214]))                  
+                :type "class")
+                nil [48 216]))          
+      :file "Hello_ClassLoader.java"
+      :pointmax 217
+      :fsize 226
+      :lastmodtime '(24197 11032 960303 613000)
+      :unmatched-syntax '((MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32) (MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32) (MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("zjq" package nil nil [1 13])
+            ("ATest2" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [97 110]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [73 237]))                  
+                :type "class")
+                nil [48 239]))          
+      :file "ATest2.java"
+      :pointmax 240
+      :fsize 321
+      :lastmodtime '(24197 11032 966511 375000)
+      :unmatched-syntax '((MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32) (MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32) (MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("zjq" package nil nil [1 13])
+            ("java.net.*" include nil nil [48 66])
+            ("BootstrapTest" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [123 136]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [99 321]))                  
+                :type "class")
+                nil [67 323]))          
+      :file "BootstrapTest.java"
+      :pointmax 324
+      :fsize 323
+      :lastmodtime '(24197 11032 955967 731000)
+      :unmatched-syntax '((MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32) (MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32) (MULT 45 . 46) (DOT 44 . 45) (IDENTIFIER 38 . 44) (DOT 37 . 38) (IDENTIFIER 33 . 37) (DOT 32 . 33) (IMPORT 14 . 20) (STATIC 21 . 27) (IDENTIFIER 28 . 32))))
   :file "!Users!jessie!java_workspace_new!crazy_java8!reflect_18!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

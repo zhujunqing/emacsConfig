@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- package-install
- package-refresh-contents
- package-reinstall
- package-install-file
- package-show-package-list
  list-packages
- eshell
+ package-install
+ customize-group
+ counsel-ag
+ helm-ag
+ imenu
+ iedit-mode
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 32)
- (eshell . 17)
+ (package-list-packages . 34)
+ (eshell . 18)
  (info . 1)
  (exit-minibuffer . 1)
  (package-autoremove . 3)
@@ -30,7 +30,7 @@
  (java-mode . 5)
  (java-imports-add-import-with-package . 3)
  (java-imports-add-import-dwim . 3)
- (list-packages . 5)
+ (list-packages . 20)
  (company-etags . 1)
  (company-elisp . 2)
  (package-menu-mark-upgrades . 2)
@@ -46,19 +46,23 @@
  (package-install-file . 6)
  (indent-region . 1)
  (reveal-in-osx-finder . 1)
- (iedit-mode . 2)
+ (iedit-mode . 3)
  (describe-theme . 3)
  (describe-symbol . 1)
  (describe-key . 1)
  (describe-face . 1)
  (popwin-mode . 1)
- (occur . 2)
- (customize-group . 5)
- (imenu . 1)
- (helm-ag . 2)
+ (occur . 4)
+ (customize-group . 13)
+ (imenu . 3)
+ (helm-ag . 9)
  (flycheck-mode . 3)
- (package-install . 2)
+ (package-install . 7)
  (package-show-package-list . 1)
  (package-reinstall . 1)
  (package-refresh-contents . 1)
+ (describe-mode . 1)
+ (evil-mode . 2)
+ (customize . 2)
+ (counsel-ag . 1)
 )

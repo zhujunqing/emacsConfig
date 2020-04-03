@@ -1,0 +1,1 @@
+("~/scala_workspace/scala-train/" "~/.emacs.d/" "~/" "~/java_workspace_new/oopProject/")
