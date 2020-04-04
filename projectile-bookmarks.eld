@@ -1,1 +1,1 @@
-("~/scala_workspace/scala-train/" "~/.emacs.d/" "~/" "~/java_workspace_new/oopProject/")
+("~/" "~/java_workspace_new/crazy_java8/reflect_18/" "~/.emacs.d/" "~/java_workspace_new/oopProject/" "~/go_workspace/src/awesomeProject/" "~/scala_workspace/scala-train/")

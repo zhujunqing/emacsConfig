@@ -39,6 +39,7 @@
 			    use-package
 			    projectile
 			    scala-mode
+			    ace-window
 			    )  "Default packages")
 
 (setq package-selected-packages  sandwich/packages)
@@ -153,5 +154,11 @@
 
 (require 'powerline)
 (powerline-center-evil-theme)
+
+(autoload 'go-mode "go-mode" nil t)
+(add-to-list 'auto-mode-alist '("\\.go\\'" . go-mode))
+
+(global-set-key (kbd "C-'") #'imenu-list-smart-toggle)
+;;(setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
 
 (provide 'init-packages)

@@ -37,7 +37,7 @@
  '(jdee-server-dir "")
  '(package-selected-packages
    (quote
-    (scala-mode company monokai-theme hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell popwin web-mode dash smex reveal-in-osx-finder expand-region iedit helm-ag flycheck yasnippet auto-yasnippet winum evil use-package)))
+    (ace-window imenu-list go-mode scala-mode company monokai-theme hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell popwin web-mode dash smex reveal-in-osx-finder expand-region iedit helm-ag flycheck yasnippet auto-yasnippet winum evil use-package)))
  '(popwin:popup-window-position (quote right))
  '(popwin:popup-window-width 90)
  '(show-paren-mode t)

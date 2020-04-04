@@ -35,4 +35,7 @@
 
 ;; 使用f5键打开默认文件搜索
 (global-set-key [f5] 'projectile-find-file)
+
+(global-set-key (kbd "M-o") 'ace-window)
+
 (provide 'init-keybindings)

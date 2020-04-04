@@ -1,105 +1,60 @@
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+4=>Ols
 ls
-cd ..
+scalac Test.scala 
+scala Test
 ls
-cd ..
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
 ls
-cd ~
-ls
-cd ~
-ls
-cd .emacs.d/
-ls
-cat init.el 
-exit
-ls
-python hellp.py 
-exit
-python hellp.py 
-exit
-python hellp.py 
-exit
-;s
-ls
-clera
-clear
-clear
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd emacs_study/
-ls
-cd day02/
-cd ..
-ls
+scalac Test.scala 
 cd day01
+scalac Test.scala 
+scala Test
 ls
-touch day01.org
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scalac Test.scala 
+scalac Test.scala 
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala -g
+scalac -help
+scalac Test.scala -g:line
+  -help                           Print a synopsis of standard options
+scala Test.scala 
+scalac Test.scala -g:line
+jdb Test
+scalac -g:vars Test.scala
 ls
-cd ~/
+rm -f *.class
 ls
-cd emacs_study/
+rm -f Ols 
 ls
-cd day01/
+scalac -g:vars Test.scala 
 ls
-ls -al
-rm -f day01.org 
--rw-r--r--   1 jessie         staff    100 2019-02-13  2019 test2.org
-ls
-cd ..
-ls
-cd ..
-ls
-vim .emacs.d/init.el 
-ls
-ls
-ls
-cd ~
-ls
-cd .emacs.d/
-ls
-touch README.md
-emacs README.md 
-ls
-git init
-git status
-git add *
-git status
-git commit -m "update config"
-git push origin master
-git push origin master
-git branch
-rm -rf .git/
-git init
-git status
-git add *
-git commit -m "this is my emacs config"
-git remote add origin https://github.com/zhujunqing/emacsConfig.git
-git push -u origin master
-ls
-cd ..
-ls
-cd elpa/
-ls
-ls
-cd ..
-ls
-ll
-ls -al
-git status
-cd ~/.emacs.d/
-git status
-ls
-git add *
-git commit -m "update code"
-git push origin master
-cd .emacs.d/
-ls
-cd elpa/
-ls
+scala Test
+jdb Test
 ls
 cd ..
 ls
@@ -107,7 +62,67 @@ cd ..
 ls
 cd ..
 ls
-cd ..
+touch debug.sh
 ls
-cd ..
 ls
+sh debug.sh quick_study_scala/com/base1/Test
+vim debug.sh 
+ls
+clear
+jdb -classpath  ./:.//Users/jessie/software/scala/lib/scala-library.jar quick_study_scala/com/base1/Test
+jdb -classpath  ./:.//Users/jessie/software/scala/lib/scala-library.jar quick_study_scala/com/base1/Test
+run Test
+jdb -classpath  ./:.//Users/jessie/software/scala/lib/scala-library.jar quick_study_scala/com/base1/Test
+cd quick_study_scala/
+ls
+cd com/
+ls
+cd base1/
+ls
+scala Test
+scalac Test.scala 
+scalac Test.scala 
+scalac Test.scala 
+scala Test
+scalac Test.scala
+scalac Test.scala
+scala Test
+scalac Test.scala
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+ls
+scalac Test.scala 
+scalac Test.scala 
+scala Test
+ls
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scalac Test.scala 
