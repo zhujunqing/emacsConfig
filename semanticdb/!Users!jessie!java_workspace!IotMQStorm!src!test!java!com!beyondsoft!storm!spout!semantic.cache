@@ -1,0 +1,43 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.beyondsoft.storm.spout" package nil nil [1 36])
+            ("backtype.storm.tuple.Fields" include nil nil [74 109])
+            ("backtype.storm.tuple.Values" include nil nil [110 145])
+            ("java.io.UnsupportedEncodingException" include nil nil [147 191])
+            ("java.util.List" include nil nil [192 214])
+            ("IotMessageScheme" type
+               (:typemodifiers ("public")
+                :interfaces ("Scheme")
+                :members 
+                  ( ("serialVersionUID" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [317 383])
+                    ("deserialize" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("bytes" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [421 433]))                          )
+                        (reparse-symbol class_member_declaration) [409 660])
+                    ("getOutputFields" function
+                       (:typemodifiers ("public")
+                        :type "Fields")
+                        (reparse-symbol class_member_declaration) [666 739]))                  
+                :type "class")
+                nil [263 741]))          
+      :file "IotMessageScheme.java"
+      :pointmax 742
+      :fsize 770
+      :lastmodtime '(22810 28663 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!jessie!java_workspace!IotMQStorm!src!test!java!com!beyondsoft!storm!spout!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

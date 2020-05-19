@@ -41,6 +41,7 @@
 			    scala-mode
 			    ace-window
 			    org-pomodoro
+			    org-bullets
 			    )  "Default packages")
 
 (setq package-selected-packages  sandwich/packages)
@@ -166,4 +167,8 @@
 (autoload 'lua-mode "lua-mode" "Lua editing mode." t)
 (add-to-list 'auto-mode-alist '("\\.lua$" . lua-mode))
 (add-to-list 'interpreter-mode-alist '("lua" . lua-mode))
+
+(add-hook 'org-mode-hook #'org-bullets-mode)
+(setq inhibit-compacting-font-caches t)
+
 (provide 'init-packages)

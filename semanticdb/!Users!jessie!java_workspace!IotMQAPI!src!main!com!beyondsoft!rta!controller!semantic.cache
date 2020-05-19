@@ -1,0 +1,136 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.beyondsoft.rta.controller" package nil nil [1 39])
+            ("javax.annotation.Resource" include nil nil [41 74])
+            ("javax.servlet.http.HttpServletRequest" include nil nil [75 120])
+            ("javax.servlet.http.HttpServletResponse" include nil nil [121 167])
+            ("BaseController" type
+               (:typemodifiers ("public" "abstract")
+                :members 
+                  ( ("request" variable
+                       (:typemodifiers ("protected")
+                        :type "HttpServletRequest")
+                        (reparse-symbol class_member_declaration) [272 309])
+                    ("response" variable
+                       (:typemodifiers ("protected")
+                        :type "HttpServletResponse")
+                        (reparse-symbol class_member_declaration) [330 369])
+                    ("getRequest" function
+                       (:typemodifiers ("public")
+                        :type "HttpServletRequest")
+                        (reparse-symbol class_member_declaration) [375 445])
+                    ("setRequest" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("request" variable (:type "HttpServletRequest") (reparse-symbol formal_parameters) [474 500]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [451 541])
+                    ("getResponse" function
+                       (:typemodifiers ("public")
+                        :type "HttpServletResponse")
+                        (reparse-symbol class_member_declaration) [547 620])
+                    ("setResponse" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("response" variable (:type "HttpServletResponse") (reparse-symbol formal_parameters) [650 678]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [626 721])
+                    ("paramIsBlank" function
+                       (:typemodifiers ("protected")
+                        :arguments 
+                          ( ("" variable (:type "args") (reparse-symbol formal_parameters) [769 773]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [728 943])
+                    ("paramIsZero" function
+                       (:typemodifiers ("protected")
+                        :arguments 
+                          ( ("" variable (:type "args") (reparse-symbol formal_parameters) [990 994]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [949 1158])
+                    ("paramLessThanZero" function
+                       (:typemodifiers ("protected")
+                        :arguments 
+                          ( ("" variable (:type "args") (reparse-symbol formal_parameters) [1211 1215]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1164 1378]))                  
+                :type "class")
+                nil [215 1381]))          
+      :file "BaseController.java"
+      :pointmax 1382
+      :fsize 1381
+      :lastmodtime '(22809 21054 0 0)
+      :unmatched-syntax '((DOT 1209 . 1210) (IDENTIFIER 1200 . 1207) (DOT 1208 . 1209) (DOT 988 . 989) (IDENTIFIER 979 . 986) (DOT 987 . 988) (DOT 767 . 768) (IDENTIFIER 759 . 765) (DOT 766 . 767)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.beyondsoft.rta.controller" package nil nil [1 39])
+            ("com.beyondsoft.rta.dao.IDroneJobsDao" include nil nil [41 85])
+            ("com.beyondsoft.rta.dao.impl.DroneJobsDaoImpl" include nil nil [86 138])
+            ("com.beyondsoft.rta.model.DroneJobs" include nil nil [139 181])
+            ("com.beyondsoft.rta.model.FlightDatas" include nil nil [182 226])
+            ("com.beyondsoft.rta.service.RtaOperatorService" include nil nil [227 280])
+            ("com.beyondsoft.rta.utils.HttpClientUtil" include nil nil [281 328])
+            ("com.beyondsoft.rta.utils.HttpClientUtils" include nil nil [329 377])
+            ("net.sf.json.JSONArray" include nil nil [378 407])
+            ("net.sf.json.JSONObject" include nil nil [408 438])
+            ("org.slf4j.Logger" include nil nil [439 463])
+            ("org.slf4j.LoggerFactory" include nil nil [464 495])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil nil [496 558])
+            ("org.springframework.stereotype.Controller" include nil nil [559 608])
+            ("org.springframework.web.bind.annotation.RequestMapping" include nil nil [609 671])
+            ("org.springframework.web.bind.annotation.ResponseBody" include nil nil [672 732])
+            ("javax.servlet.http.HttpServletRequest" include nil nil [734 779])
+            ("javax.servlet.http.HttpServletResponse" include nil nil [780 826])
+            ("java.util.HashMap" include nil nil [827 852])
+            ("java.util.Iterator" include nil nil [853 879])
+            ("java.util.List" include nil nil [880 902])
+            ("java.util.Map" include nil nil [903 924])
+            ("RtaOperatorController" type
+               (:typemodifiers ("public")
+                :superclasses "BaseController"
+                :members 
+                  ( ("logger" variable
+                       (:typemodifiers ("private" "static")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [1139 1236])
+                    ("rtaOperatorService" variable
+                       (:typemodifiers ("private")
+                        :type "RtaOperatorService")
+                        (reparse-symbol class_member_declaration) [1257 1303])
+                    ("loadToKafka" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("request" variable (:type "HttpServletRequest") (reparse-symbol formal_parameters) [1388 1414])
+                            ("response" variable (:type "HttpServletResponse") (reparse-symbol formal_parameters) [1416 1444]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1362 1662])
+                    ("generateDroneJobsData" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("request" variable (:type "HttpServletRequest") (reparse-symbol formal_parameters) [1763 1789])
+                            ("response" variable (:type "HttpServletResponse") (reparse-symbol formal_parameters) [1791 1819]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1727 3925])
+                    ("generateFlightDatas" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("request" variable (:type "HttpServletRequest") (reparse-symbol formal_parameters) [4025 4051])
+                            ("response" variable (:type "HttpServletResponse") (reparse-symbol formal_parameters) [4053 4081]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3991 7263]))                  
+                :type "class")
+                nil [1075 7265]))          
+      :file "RtaOperatorController.java"
+      :pointmax 7266
+      :fsize 7526
+      :lastmodtime '(22813 16676 0 0)
+      :unmatched-syntax '((STRING_LITERAL 3947 . 3967) (STRING_LITERAL 1684 . 1703) (STRING_LITERAL 1325 . 1338) (PAREN_BLOCK 1067 . 1074) (IDENTIFIER 1052 . 1067) (IDENTIFIER 1038 . 1051) (IDENTIFIER 1026 . 1037))))
+  :file "!Users!jessie!java_workspace!IotMQAPI!src!main!com!beyondsoft!rta!controller!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

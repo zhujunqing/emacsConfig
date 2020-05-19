@@ -1,13 +1,3 @@
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scalac Test.scala 
 ls
 ls
 touch java_project.sh
@@ -126,3 +116,13 @@ java com.zjq.core.Hello
 javac com.zjq.core.Hello.java
 java
 clear
+ls
+go run hello.go 
+fmt
+go
+go version
+ls
+go run hello.go 
+go build hello.go 
+ls
+./hello 

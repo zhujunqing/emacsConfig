@@ -1,0 +1,833 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.beyondsoft.storm.model" package nil nil [1 36])
+            ("java.sql.Timestamp" include nil nil [38 64])
+            ("DroneJobs" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("droneJobID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [142 168])
+                    ("droneID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [173 196])
+                    ("routeID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [201 224])
+                    ("pilotID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [229 252])
+                    ("infraVendorID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [257 286])
+                    ("controlVendorID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [291 322])
+                    ("provice" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [327 350])
+                    ("city" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [355 375])
+                    ("teamID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [380 402])
+                    ("startTime" variable
+                       (:typemodifiers ("private")
+                        :type "Timestamp")
+                        (reparse-symbol class_member_declaration) [407 435])
+                    ("endTime" variable
+                       (:typemodifiers ("private")
+                        :type "Timestamp")
+                        (reparse-symbol class_member_declaration) [440 466])
+                    ("status" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [471 490])
+                    ("name" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [495 515])
+                    ("taskID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [520 542])
+                    ("expectStartTime" variable
+                       (:typemodifiers ("private")
+                        :type "Timestamp")
+                        (reparse-symbol class_member_declaration) [547 581])
+                    ("expectEndTime" variable
+                       (:typemodifiers ("private")
+                        :type "Timestamp")
+                        (reparse-symbol class_member_declaration) [586 618])
+                    ("sprayWidth" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [623 649])
+                    ("type" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [654 671])
+                    ("getDroneJobID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [677 741])
+                    ("setDroneJobID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("droneJobID" variable (:type "String") (reparse-symbol formal_parameters) [773 790]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [747 837])
+                    ("getDroneID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [843 901])
+                    ("setDroneID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("droneID" variable (:type "String") (reparse-symbol formal_parameters) [930 944]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [907 985])
+                    ("getRouteID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [991 1049])
+                    ("setRouteID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("routeID" variable (:type "String") (reparse-symbol formal_parameters) [1078 1092]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1055 1133])
+                    ("getPilotID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1139 1197])
+                    ("setPilotID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("pilotID" variable (:type "String") (reparse-symbol formal_parameters) [1226 1240]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1203 1281])
+                    ("getInfraVendorID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1287 1357])
+                    ("setInfraVendorID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("infraVendorID" variable (:type "String") (reparse-symbol formal_parameters) [1392 1412]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1363 1465])
+                    ("getControlVendorID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1471 1545])
+                    ("setControlVendorID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("controlVendorID" variable (:type "String") (reparse-symbol formal_parameters) [1582 1604]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1551 1661])
+                    ("getProvice" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1667 1725])
+                    ("setProvice" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("provice" variable (:type "String") (reparse-symbol formal_parameters) [1754 1768]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1731 1809])
+                    ("getCity" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1815 1867])
+                    ("setCity" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("city" variable (:type "String") (reparse-symbol formal_parameters) [1893 1904]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1873 1939])
+                    ("getTeamID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1945 2001])
+                    ("setTeamID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("teamID" variable (:type "String") (reparse-symbol formal_parameters) [2029 2042]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2007 2081])
+                    ("getStartTime" function
+                       (:typemodifiers ("public")
+                        :type "Timestamp")
+                        (reparse-symbol class_member_declaration) [2087 2152])
+                    ("setStartTime" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("startTime" variable (:type "Timestamp") (reparse-symbol formal_parameters) [2183 2202]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2158 2247])
+                    ("getEndTime" function
+                       (:typemodifiers ("public")
+                        :type "Timestamp")
+                        (reparse-symbol class_member_declaration) [2253 2314])
+                    ("setEndTime" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("endTime" variable (:type "Timestamp") (reparse-symbol formal_parameters) [2343 2360]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2320 2401])
+                    ("getStatus" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2407 2460])
+                    ("setStatus" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("status" variable (:type "int") (reparse-symbol formal_parameters) [2488 2498]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2466 2537])
+                    ("getName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2543 2595])
+                    ("setName" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [2621 2632]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2601 2667])
+                    ("getTaskID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2673 2729])
+                    ("setTaskID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("taskID" variable (:type "String") (reparse-symbol formal_parameters) [2757 2770]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2735 2809])
+                    ("getExpectStartTime" function
+                       (:typemodifiers ("public")
+                        :type "Timestamp")
+                        (reparse-symbol class_member_declaration) [2815 2892])
+                    ("setExpectStartTime" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("expectStartTime" variable (:type "Timestamp") (reparse-symbol formal_parameters) [2929 2954]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2898 3011])
+                    ("getExpectEndTime" function
+                       (:typemodifiers ("public")
+                        :type "Timestamp")
+                        (reparse-symbol class_member_declaration) [3017 3090])
+                    ("setExpectEndTime" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("expectEndTime" variable (:type "Timestamp") (reparse-symbol formal_parameters) [3125 3148]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3096 3201])
+                    ("getSprayWidth" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [3207 3271])
+                    ("setSprayWidth" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("sprayWidth" variable (:type "double") (reparse-symbol formal_parameters) [3303 3320]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3277 3367])
+                    ("getType" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3373 3422])
+                    ("setType" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [3448 3456]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3428 3491])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3511 4466]))                  
+                :type "class")
+                nil [113 4468]))          
+      :file "DroneJobs.java"
+      :pointmax 4469
+      :fsize 4663
+      :lastmodtime '(22813 26343 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.beyondsoft.storm.model" package nil nil [1 36])
+            ("org.apache.avro.generic.GenericData" include nil nil [39 82])
+            ("java.util.ArrayList" include nil nil [84 111])
+            ("java.util.List" include nil nil [112 134])
+            ("Plane" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("flightDataID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [209 237])
+                    ("ordinal" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [242 262])
+                    ("latitude" variable
+                       (:typemodifiers ("private")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [267 289])
+                    ("longtitude" variable
+                       (:typemodifiers ("private")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [294 318])
+                    ("sprayWidth" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [323 349])
+                    ("getSprayWidth" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [355 419])
+                    ("setSprayWidth" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("sprayWidth" variable (:type "double") (reparse-symbol formal_parameters) [451 468]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [425 515])
+                    ("getFlightDataID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [521 589])
+                    ("setFlightDataID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("flightDataID" variable (:type "String") (reparse-symbol formal_parameters) [623 642]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [595 693])
+                    ("getOrdinal" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [699 754])
+                    ("setOrdinal" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("ordinal" variable (:type "int") (reparse-symbol formal_parameters) [783 794]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [760 835])
+                    ("getLatitude" function
+                       (:typemodifiers ("public")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [841 899])
+                    ("setLatitude" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("latitude" variable (:type "long") (reparse-symbol formal_parameters) [929 942]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [905 985])
+                    ("getLongtitude" function
+                       (:typemodifiers ("public")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [991 1053])
+                    ("setLongtitude" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("longtitude" variable (:type "long") (reparse-symbol formal_parameters) [1085 1100]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1059 1147]))                  
+                :type "class")
+                nil [183 1149]))          
+      :file "Plane.java"
+      :pointmax 1150
+      :fsize 1208
+      :lastmodtime '(22813 36658 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.beyondsoft.storm.model" package nil nil [1 36])
+            ("java.sql.Timestamp" include nil nil [38 64])
+            ("FlightDatas" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("flightDataID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [144 172])
+                    ("jobID" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [177 198])
+                    ("fc_SN" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [203 224])
+                    ("pitch" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [229 250])
+                    ("roll" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [255 275])
+                    ("yaw" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [280 299])
+                    ("speed" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [304 325])
+                    ("radarHeight" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [330 357])
+                    ("pressureHeight" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [362 392])
+                    ("flightDuration" variable
+                       (:typemodifiers ("private")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [397 425])
+                    ("throttle" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [430 454])
+                    ("batteryVoltage" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [459 489])
+                    ("mode" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [494 511])
+                    ("status" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [516 535])
+                    ("longitude" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [540 565])
+                    ("latitude" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [570 594])
+                    ("height" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [599 621])
+                    ("pumpValve" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [626 651])
+                    ("pesticidesSensor" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [656 685])
+                    ("gyroscopeSensor" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [690 718])
+                    ("remoteControl" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [723 749])
+                    ("accelerometer" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [754 780])
+                    ("compass" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [785 805])
+                    ("shock" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [810 828])
+                    ("satelliteCount" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [833 860])
+                    ("gpsMode" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [865 885])
+                    ("insertDate" variable
+                       (:typemodifiers ("private")
+                        :type "Timestamp")
+                        (reparse-symbol class_member_declaration) [890 919])
+                    ("ordinal" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [924 944])
+                    ("timestampStr" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [949 977])
+                    ("currentFlightDistance" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [982 1019])
+                    ("currentJobDistance" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1024 1058])
+                    ("currentSprayArea" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1063 1095])
+                    ("getFlightDataID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1101 1169])
+                    ("setFlightDataID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("flightDataID" variable (:type "String") (reparse-symbol formal_parameters) [1203 1222]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1175 1273])
+                    ("getJobID" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1279 1333])
+                    ("setJobID" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("jobID" variable (:type "String") (reparse-symbol formal_parameters) [1360 1372]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1339 1409])
+                    ("getPitch" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1416 1470])
+                    ("setPitch" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("pitch" variable (:type "double") (reparse-symbol formal_parameters) [1497 1509]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1476 1546])
+                    ("getRoll" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1552 1604])
+                    ("setRoll" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("roll" variable (:type "double") (reparse-symbol formal_parameters) [1630 1641]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1610 1676])
+                    ("getYaw" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1682 1732])
+                    ("setYaw" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("yaw" variable (:type "double") (reparse-symbol formal_parameters) [1757 1767]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1738 1800])
+                    ("getSpeed" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1806 1860])
+                    ("setSpeed" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("speed" variable (:type "double") (reparse-symbol formal_parameters) [1887 1899]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1866 1936])
+                    ("getRadarHeight" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1942 2008])
+                    ("setRadarHeight" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("radarHeight" variable (:type "double") (reparse-symbol formal_parameters) [2041 2059]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2014 2108])
+                    ("getPressureHeight" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [2114 2186])
+                    ("setPressureHeight" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("pressureHeight" variable (:type "double") (reparse-symbol formal_parameters) [2222 2243]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2192 2298])
+                    ("getFlightDuration" function
+                       (:typemodifiers ("public")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [2304 2374])
+                    ("setFlightDuration" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("flightDuration" variable (:type "long") (reparse-symbol formal_parameters) [2410 2429]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2380 2484])
+                    ("getThrottle" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [2490 2550])
+                    ("setThrottle" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("throttle" variable (:type "double") (reparse-symbol formal_parameters) [2580 2595]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2556 2638])
+                    ("getBatteryVoltage" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [2644 2716])
+                    ("setBatteryVoltage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("batteryVoltage" variable (:type "double") (reparse-symbol formal_parameters) [2752 2773]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2722 2828])
+                    ("getMode" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2834 2883])
+                    ("setMode" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("mode" variable (:type "int") (reparse-symbol formal_parameters) [2909 2917]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2889 2952])
+                    ("getStatus" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2958 3011])
+                    ("setStatus" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("status" variable (:type "int") (reparse-symbol formal_parameters) [3039 3049]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3017 3088])
+                    ("getLongitude" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [3094 3156])
+                    ("setLongitude" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("longitude" variable (:type "double") (reparse-symbol formal_parameters) [3187 3203]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3162 3248])
+                    ("getLatitude" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [3254 3314])
+                    ("setLatitude" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("latitude" variable (:type "double") (reparse-symbol formal_parameters) [3344 3359]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3320 3402])
+                    ("getHeight" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [3408 3464])
+                    ("setHeight" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("height" variable (:type "double") (reparse-symbol formal_parameters) [3492 3505]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3470 3544])
+                    ("getPumpValve" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [3550 3612])
+                    ("setPumpValve" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("pumpValve" variable (:type "double") (reparse-symbol formal_parameters) [3643 3659]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3618 3704])
+                    ("getPesticidesSensor" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3710 3783])
+                    ("setPesticidesSensor" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("pesticidesSensor" variable (:type "int") (reparse-symbol formal_parameters) [3821 3841]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3789 3900])
+                    ("getGyroscopeSensor" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3906 3977])
+                    ("setGyroscopeSensor" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("gyroscopeSensor" variable (:type "int") (reparse-symbol formal_parameters) [4014 4033]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3983 4090])
+                    ("getRemoteControl" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4096 4163])
+                    ("setRemoteControl" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("remoteControl" variable (:type "int") (reparse-symbol formal_parameters) [4198 4215]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4169 4268])
+                    ("getAccelerometer" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4274 4341])
+                    ("setAccelerometer" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("accelerometer" variable (:type "int") (reparse-symbol formal_parameters) [4376 4393]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4347 4446])
+                    ("getCompass" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4452 4507])
+                    ("setCompass" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("compass" variable (:type "int") (reparse-symbol formal_parameters) [4536 4547]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4513 4588])
+                    ("getShock" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4594 4645])
+                    ("setShock" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("shock" variable (:type "int") (reparse-symbol formal_parameters) [4672 4681]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4651 4718])
+                    ("getSatelliteCount" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4724 4793])
+                    ("setSatelliteCount" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("satelliteCount" variable (:type "int") (reparse-symbol formal_parameters) [4829 4847]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4799 4902])
+                    ("getGpsMode" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4908 4963])
+                    ("setGpsMode" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("gpsMode" variable (:type "int") (reparse-symbol formal_parameters) [4992 5003]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4969 5044])
+                    ("getInsertDate" function
+                       (:typemodifiers ("public")
+                        :type "Timestamp")
+                        (reparse-symbol class_member_declaration) [5050 5117])
+                    ("setInsertDate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("insertDate" variable (:type "Timestamp") (reparse-symbol formal_parameters) [5149 5169]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5123 5216])
+                    ("getOrdinal" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [5222 5277])
+                    ("setOrdinal" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("ordinal" variable (:type "int") (reparse-symbol formal_parameters) [5306 5317]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5283 5358])
+                    ("getTimestampStr" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5364 5432])
+                    ("setTimestampStr" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("timestampStr" variable (:type "String") (reparse-symbol formal_parameters) [5466 5485]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5438 5536])
+                    ("getCurrentFlightDistance" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [5542 5628])
+                    ("setCurrentFlightDistance" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("currentFlightDistance" variable (:type "double") (reparse-symbol formal_parameters) [5671 5699]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5634 5768])
+                    ("getCurrentJobDistance" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [5774 5854])
+                    ("setCurrentJobDistance" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("currentJobDistance" variable (:type "double") (reparse-symbol formal_parameters) [5894 5919]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5860 5982])
+                    ("getCurrentSprayArea" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [5988 6064])
+                    ("setCurrentSprayArea" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("currentSprayArea" variable (:type "double") (reparse-symbol formal_parameters) [6102 6125]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6070 6184])
+                    ("getFc_SN" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6190 6244])
+                    ("setFc_SN" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("fc_SN" variable (:type "String") (reparse-symbol formal_parameters) [6271 6283]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6250 6320])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6340 7951]))                  
+                :type "class")
+                nil [113 7953]))          
+      :file "FlightDatas.java"
+      :pointmax 7954
+      :fsize 8289
+      :lastmodtime '(22813 26343 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!jessie!java_workspace!IotMQStorm!src!test!java!com!beyondsoft!storm!model!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
