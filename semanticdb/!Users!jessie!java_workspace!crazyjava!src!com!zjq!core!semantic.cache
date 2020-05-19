@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.zjq.core" package nil nil [1 22])
+            ("Hello" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [72 85]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [48 129]))                  
+                :type "class")
+                nil [24 131]))          
+      :file "Hello.java"
+      :pointmax 132
+      :fsize 131
+      :lastmodtime '(24217 49963 523695 991000)
+      :unmatched-syntax nil))
+  :file "!Users!jessie!java_workspace!crazyjava!src!com!zjq!core!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

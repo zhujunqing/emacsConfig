@@ -40,6 +40,7 @@
 			    projectile
 			    scala-mode
 			    ace-window
+			    org-pomodoro
 			    )  "Default packages")
 
 (setq package-selected-packages  sandwich/packages)
@@ -160,5 +161,9 @@
 
 (global-set-key (kbd "C-'") #'imenu-list-smart-toggle)
 ;;(setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
+(add-to-list 'load-path "~/.emacs.d/elpa/lua-mode-20200405.1305/lua-mode-el/resides")
 
+(autoload 'lua-mode "lua-mode" "Lua editing mode." t)
+(add-to-list 'auto-mode-alist '("\\.lua$" . lua-mode))
+(add-to-list 'interpreter-mode-alist '("lua" . lua-mode))
 (provide 'init-packages)

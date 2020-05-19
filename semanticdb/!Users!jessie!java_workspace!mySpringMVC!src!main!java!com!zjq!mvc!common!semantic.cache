@@ -1,0 +1,176 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.zjq.mvc.common" package nil nil [1 28])
+            ("com.fasterxml.jackson.annotation.JsonIgnore" include nil nil [30 81])
+            ("com.fasterxml.jackson.databind.annotation.JsonSerialize" include nil nil [82 145])
+            ("java.io.Serializable" include nil nil [147 175])
+            ("ApiResponse" type
+               (:typemodifiers ("public")
+                :interfaces ("Serializable")
+                :members 
+                  ( ("serialVersionUID" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [376 441])
+                    ("code" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [476 493])
+                    ("message" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [530 553])
+                    ("data" variable
+                       (:typemodifiers ("private")
+                        :type "Object")
+                        (reparse-symbol class_member_declaration) [588 608])
+                    ("more" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [649 670])
+                    ("ApiResponse" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("code" variable (:type "int") (reparse-symbol formal_parameters) [695 703])
+                            ("message" variable (:type "String") (reparse-symbol formal_parameters) [705 719])
+                            ("data" variable (:type "Object") (reparse-symbol formal_parameters) [721 732]))                          )
+                        (reparse-symbol class_member_declaration) [676 825])
+                    ("ApiResponse" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("code" variable (:type "int") (reparse-symbol formal_parameters) [850 858]))                          )
+                        (reparse-symbol class_member_declaration) [831 892])
+                    ("ApiResponse" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("code" variable (:type "int") (reparse-symbol formal_parameters) [917 925])
+                            ("message" variable (:type "String") (reparse-symbol formal_parameters) [927 941]))                          )
+                        (reparse-symbol class_member_declaration) [898 1007])
+                    ("ApiResponse" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [1013 1147])
+                    ("getCode" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1153 1202])
+                    ("setCode" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("code" variable (:type "int") (reparse-symbol formal_parameters) [1228 1236]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1208 1271])
+                    ("getMessage" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1277 1335])
+                    ("setMessage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("message" variable (:type "String") (reparse-symbol formal_parameters) [1364 1378]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1341 1419])
+                    ("getData" function
+                       (:typemodifiers ("public")
+                        :type "Object")
+                        (reparse-symbol class_member_declaration) [1425 1477])
+                    ("setData" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("data" variable (:type "Object") (reparse-symbol formal_parameters) [1503 1514]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1483 1549])
+                    ("isMore" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1555 1607])
+                    ("setMore" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("more" variable (:type "boolean") (reparse-symbol formal_parameters) [1633 1645]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1613 1680])
+                    ("isSuccess" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1756 1844])
+                    ("ofSuccess" function
+                       (:typemodifiers ("public" "static")
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [1851 1953])
+                    ("ofSuccessByMessage" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("message" variable (:type "String") (reparse-symbol formal_parameters) [2004 2018]))                          
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [1959 2093])
+                    ("ofMessage" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("code" variable (:type "int") (reparse-symbol formal_parameters) [2135 2143])
+                            ("message" variable (:type "String") (reparse-symbol formal_parameters) [2145 2159]))                          
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [2099 2221])
+                    ("ofSuccess" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("data" variable (:type "Object") (reparse-symbol formal_parameters) [2263 2274]))                          
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [2227 2384])
+                    ("ofStatus" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("status" variable (:type "Status") (reparse-symbol formal_parameters) [2425 2438]))                          
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [2390 2532])
+                    ("ofBadRequestError" function
+                       (:typemodifiers ("public" "static")
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [2538 2699])
+                    ("ofNotFoundError" function
+                       (:typemodifiers ("public" "static")
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [2705 2860])
+                    ("ofInternalServerError" function
+                       (:typemodifiers ("public" "static")
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [2866 3051])
+                    ("ofNotValidParamError" function
+                       (:typemodifiers ("public" "static")
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [3057 3229])
+                    ("ofNotSupportedOperation" function
+                       (:typemodifiers ("public" "static")
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [3235 3426])
+                    ("ofNotLoginError" function
+                       (:typemodifiers ("public" "static")
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [3432 3587])
+                    ("ofAssembleDataError" function
+                       (:typemodifiers ("public" "static")
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [3593 3764])
+                    ("ofExtractDataError" function
+                       (:typemodifiers ("public" "static")
+                        :type "ApiResponse")
+                        (reparse-symbol class_member_declaration) [3770 3948]))                  
+                :type "class")
+                nil [321 3950]))          
+      :file "ApiResponse.java"
+      :pointmax 3951
+      :fsize 4080
+      :lastmodtime '(23985 19129 34334 271000)
+      :unmatched-syntax '((PAREN_BLOCK 232 . 277) (IDENTIFIER 218 . 232))))
+  :file "!Users!jessie!java_workspace!mySpringMVC!src!main!java!com!zjq!mvc!common!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

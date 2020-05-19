@@ -1,0 +1,56 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("design.StrategyPattern" package nil nil [1 32])
+            ("Duck" type
+               (:typemodifiers ("public" "abstract")
+                :members 
+                  ( ("flyBehavior" variable (:type "FlyBehavior") (reparse-symbol class_member_declaration) [115 139])
+                    ("quackBehavior" variable (:type "QuackBehavior") (reparse-symbol class_member_declaration) [144 172])
+                    ("Duck" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [178 193])
+                    ("display" function
+                       (:typemodifiers ("public" "abstract")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [199 230])
+                    ("performFly" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [236 294])
+                    ("performQuack" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [300 364])
+                    ("swim" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [370 439])
+                    ("setFlyBehavior" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("flyBehavior" variable (:type "FlyBehavior") (reparse-symbol formal_parameters) [472 495]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [445 544])
+                    ("setQuackBehavior" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("quackBehavior" variable (:type "QuackBehavior") (reparse-symbol formal_parameters) [579 606]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [550 659]))                  
+                :type "class")
+                nil [81 661]))          
+      :file "Duck.java"
+      :pointmax 662
+      :fsize 661
+      :lastmodtime '(23391 9064 100276 292000)
+      :unmatched-syntax nil))
+  :file "!Users!jessie!java_workspace!javaProject!src!com!zjq!design!StrategyPattern!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

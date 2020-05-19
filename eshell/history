@@ -1,128 +1,128 @@
+scala Test
+scalac Test.scala 
+scala Test
+scalac Test.scala 
+scalac Test.scala 
+scala Test
 scalac Test.scala 
 scala Test
 scalac Test.scala 
 scalac Test.scala 
-scala Test
-scalac Test.scala 
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-4=>Ols
 ls
-scalac Test.scala 
-scala Test
 ls
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
+touch java_project.sh
 ls
-scalac Test.scala 
-cd day01
-scalac Test.scala 
-scala Test
+sh java_project.sh 
+sh java_project.sh 
+source java_project.sh 
+sh java_project.sh 
+chmod +x java_project.sh 
+./java_project.sh 
+pwd
+cp java_project.sh java_project
+source java_project
+pwd
+./java_project.sh
+./java_project.sh
+pwd
 ls
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scalac Test.scala 
-scalac Test.scala 
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala -g
-scalac -help
-scalac Test.scala -g:line
-  -help                           Print a synopsis of standard options
-scala Test.scala 
-scalac Test.scala -g:line
-jdb Test
-scalac -g:vars Test.scala
+scalac OopTest.scala 
+scala OopTest
+scalac OopTest.scala 
+scala OopTest
+scalac OopTest.scala 
+scalac OopTest\$.class
+scalac OopTest.scala 
+scala OopTest
+scalac OopTest.scala 
+scala OopTest
+javap -private Person
+scalac OopTest.scala 
+scalac OopTest.scala 
+scala OopTest\$.class
+scala OopTest
+scalac OopTest.scala 
+scala OopTest
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scala OopTest
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scalac OopTest.scala 
+scala OopTest
+scalac OopTest.scala 
+scala OopTest
+scalac functional.scala 
+scala functional
+mv functional.scala Functional.scala
+scalac functional.scala 
+scala functional
+scalac functional.scala
+scala function
+scala functional
+scalac functional.scala 
+scalac functional.scala 
+mv functional.scala Functional.scala
 ls
-rm -f *.class
 ls
-rm -f Ols 
+scalac Functional.scala 
+scalac functional.scala
+scala functional
+scala Functional
 ls
-scalac -g:vars Test.scala 
+scalac Functional.scala 
 ls
-scala Test
-jdb Test
+scalac Functional.scala 
+scala Functional
+scalac Functional.scala 
+scala Function
+scala Functional
+scalac Functional.scala 
+scala Functional
+scalac Functional
+scalac Functional
+scalac Functional.scala 
+scala Functional
 ls
+javac Student.java 
+ls
+java Student
+java com.zjq.algorithms.day01.homework.Student
+ls
+cd ..
+cd ..
 cd ..
 ls
 cd ..
 ls
 cd ..
 ls
-touch debug.sh
+cd ..
 ls
+cd ..
 ls
-sh debug.sh quick_study_scala/com/base1/Test
-vim debug.sh 
+cd paogu_vip_project/
 ls
+cd com/zjq/
+ls
+javac Test.java 
+javac Test.java
+ls
+javac Hello.java 
+java Hello.java
+java Hello
+java com.zjq.core.Hello
+javac com.zjq.core.Hello.java
+java
 clear
-jdb -classpath  ./:.//Users/jessie/software/scala/lib/scala-library.jar quick_study_scala/com/base1/Test
-jdb -classpath  ./:.//Users/jessie/software/scala/lib/scala-library.jar quick_study_scala/com/base1/Test
-run Test
-jdb -classpath  ./:.//Users/jessie/software/scala/lib/scala-library.jar quick_study_scala/com/base1/Test
-cd quick_study_scala/
-ls
-cd com/
-ls
-cd base1/
-ls
-scala Test
-scalac Test.scala 
-scalac Test.scala 
-scalac Test.scala 
-scala Test
-scalac Test.scala
-scalac Test.scala
-scala Test
-scalac Test.scala
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-ls
-scalac Test.scala 
-scalac Test.scala 
-scala Test
-ls
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scala Test
-scalac Test.scala 
-scalac Test.scala 

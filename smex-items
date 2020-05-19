@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- popwin:popup-buffer
- occur
- indent-region
- ace-window
+ org-pomodoro
+ ielm
  list-packages
- eshell
- jdb
+ org-mode
+ window-divider-mode
+ window-swap-states
+ occur
 )
 
 ;; ----- smex-data -----
 (
  (package-list-packages . 33)
- (eshell . 21)
+ (eshell . 17)
  (info . 1)
  (exit-minibuffer . 1)
  (package-autoremove . 3)
@@ -30,7 +30,7 @@
  (java-mode . 5)
  (java-imports-add-import-with-package . 3)
  (java-imports-add-import-dwim . 3)
- (list-packages . 7)
+ (list-packages . 6)
  (company-etags . 1)
  (company-elisp . 2)
  (package-menu-mark-upgrades . 2)
@@ -38,13 +38,13 @@
  (package-menu-mark-obsolete-for-deletion . 2)
  (package-menu-refresh . 2)
  (image-mode . 1)
- (ielm . 1)
+ (ielm . 3)
  (dash-at-point . 1)
  (describe-font . 6)
  (dash-at-point-with-docset . 1)
  (package-install-selected-packages . 1)
  (package-install-file . 6)
- (indent-region . 7)
+ (indent-region . 1)
  (reveal-in-osx-finder . 1)
  (iedit-mode . 2)
  (describe-theme . 3)
@@ -52,20 +52,20 @@
  (describe-key . 1)
  (describe-face . 1)
  (popwin-mode . 1)
- (occur . 5)
+ (occur . 4)
  (customize-group . 11)
- (imenu . 3)
+ (imenu . 1)
  (helm-ag . 2)
  (flycheck-mode . 3)
- (package-install . 3)
+ (package-install . 2)
  (package-show-package-list . 1)
  (package-reinstall . 1)
  (package-refresh-contents . 1)
  (describe-mode . 1)
  (evil-mode . 2)
  (customize . 2)
- (jdb . 2)
- (eshell-kill-process . 1)
- (ace-window . 2)
- (popwin:popup-buffer . 1)
+ (window-swap-states . 1)
+ (window-divider-mode . 1)
+ (org-mode . 3)
+ (org-pomodoro . 2)
 )

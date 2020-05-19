@@ -1,0 +1,35 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.zjq.algorithms" package nil nil [1 28])
+            ("App" type
+               (:typemodifiers ("public" "final")
+                :members 
+                  ( ("App" function
+                       (:constructor-flag t
+                        :typemodifiers ("private"))
+                        (reparse-symbol class_member_declaration) [101 122])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [249 262]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [225 315]))                  
+                :type "class")
+                nil [72 317]))          
+      :file "App.java"
+      :pointmax 318
+      :fsize 317
+      :lastmodtime '(24219 36959 694825 889000)
+      :unmatched-syntax nil))
+  :file "!Users!jessie!java_workspace!algorithmsProject!src!main!java!com!zjq!algorithms!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

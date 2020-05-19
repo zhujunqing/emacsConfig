@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.zjq.algorithms.day01.homework" package nil nil [1 43]))          
+      :file "Student.java"
+      :pointmax 655
+      :fsize 654
+      :lastmodtime '(24205 20254 437354 898000)
+      :unmatched-syntax '((BRACE_BLOCK 145 . 654) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 649) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 647) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 646) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 644) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 632) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 636) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 626) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 625) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 617) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 610) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 605) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 604) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 602) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 586) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 581) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 579) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 578) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136) (BRACE_BLOCK 145 . 573) (GT 143 . 144) (IDENTIFIER 136 . 143) (PUBLIC 93 . 99) (LT 135 . 136))))
+  :file "!Users!jessie!java_workspace!javaProject!src!com!zjq!algorithms!day01!homework!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
