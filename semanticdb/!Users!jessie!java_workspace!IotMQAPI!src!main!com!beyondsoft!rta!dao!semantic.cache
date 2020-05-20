@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.beyondsoft.rta.dao" package nil nil [1 32])
+            ("com.beyondsoft.rta.model.DroneJobs" include nil nil [34 76])
+            ("java.util.List" include nil nil [78 100])
+            ("java.util.Map" include nil nil [101 122])
+            ("IDroneJobsDao" type
+               (:typemodifiers ("public")
+                :type "interface")
+                nil [171 310]))          
+      :file "IDroneJobsDao.java"
+      :pointmax 311
+      :fsize 326
+      :lastmodtime '(22812 2897 0 0)
+      :unmatched-syntax '((SEMICOLON 307 . 308) (PAREN_BLOCK 305 . 307) (GT 287 . 288) (LT 277 . 278) (SEMICOLON 259 . 260) (PAREN_BLOCK 257 . 259) (RSHIFT 239 . 241) (COMMA 231 . 232) (LT 224 . 225) (PUBLIC 209 . 215) (LT 220 . 221))))
+  :file "!Users!jessie!java_workspace!IotMQAPI!src!main!com!beyondsoft!rta!dao!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

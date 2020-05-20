@@ -1,8 +1,3 @@
-ls
-ls
-touch java_project.sh
-ls
-sh java_project.sh 
 sh java_project.sh 
 source java_project.sh 
 sh java_project.sh 
@@ -126,3 +121,8 @@ go run hello.go
 go build hello.go 
 ls
 ./hello 
+ls
+git init
+cd ~/.emacs.d/lisp/
+ls
+git diff init-ui.el 

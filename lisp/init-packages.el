@@ -42,6 +42,7 @@
 			    ace-window
 			    org-pomodoro
 			    org-bullets
+			    doom-modeline
 			    )  "Default packages")
 
 (setq package-selected-packages  sandwich/packages)
@@ -170,5 +171,17 @@
 
 (add-hook 'org-mode-hook #'org-bullets-mode)
 (setq inhibit-compacting-font-caches t)
+
+(doom-modeline-mode 1)
+
+(use-package doom-modeline
+  :ensure t
+  :init (doom-modeline-mode 1))
+
+(use-package all-the-icons)
+;; Don’t compact font caches during GC.
+(setq inhibit-compacting-font-caches t)
+(setq find-file-visit-truename t)
+(setq auto-revert-check-vc-info t)
 
 (provide 'init-packages)

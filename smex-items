@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- package-install
- variable-pitch-mode
- list-packages
- eshell
+ ivy-mode
+ helm-mode
  dired
- term
- package-list-packages
+ eshell
+ package-install
+ all-the-icons-insert
+ all-the-icons-install-fonts
 )
 
 ;; ----- smex-data -----
 (
  (package-list-packages . 34)
- (eshell . 20)
+ (eshell . 22)
  (info . 1)
  (exit-minibuffer . 1)
  (package-autoremove . 3)
@@ -57,7 +57,7 @@
  (imenu . 1)
  (helm-ag . 7)
  (flycheck-mode . 3)
- (package-install . 6)
+ (package-install . 9)
  (package-show-package-list . 1)
  (package-reinstall . 1)
  (package-refresh-contents . 1)
@@ -73,17 +73,20 @@
  (org-capture . 2)
  (projectile-mode . 4)
  (find-name-dired . 8)
- (dired . 4)
+ (dired . 5)
  (dired-tree-up . 2)
  (term . 3)
  (grep-find . 1)
  (find-grep . 2)
  (helm-find . 4)
- (helm-mode . 1)
+ (helm-mode . 2)
  (json-pretty-print-buffer . 7)
  (json-pretty-print . 3)
  (go-mode . 3)
  (json-pretty-print-buffer-ordered . 1)
  (text-mode . 1)
  (variable-pitch-mode . 2)
+ (all-the-icons-install-fonts . 2)
+ (all-the-icons-insert . 1)
+ (ivy-mode . 1)
 )
