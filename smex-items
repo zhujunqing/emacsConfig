@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-install
+ format-find-file
  ivy-mode
  helm-mode
  dired
  eshell
- package-install
  all-the-icons-insert
- all-the-icons-install-fonts
 )
 
 ;; ----- smex-data -----
@@ -57,7 +57,7 @@
  (imenu . 1)
  (helm-ag . 7)
  (flycheck-mode . 3)
- (package-install . 9)
+ (package-install . 11)
  (package-show-package-list . 1)
  (package-reinstall . 1)
  (package-refresh-contents . 1)
@@ -89,4 +89,5 @@
  (all-the-icons-install-fonts . 2)
  (all-the-icons-insert . 1)
  (ivy-mode . 1)
+ (format-find-file . 1)
 )

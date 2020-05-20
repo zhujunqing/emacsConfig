@@ -43,6 +43,7 @@
 			    org-pomodoro
 			    org-bullets
 			    doom-modeline
+			    htmlize
 			    )  "Default packages")
 
 (setq package-selected-packages  sandwich/packages)
