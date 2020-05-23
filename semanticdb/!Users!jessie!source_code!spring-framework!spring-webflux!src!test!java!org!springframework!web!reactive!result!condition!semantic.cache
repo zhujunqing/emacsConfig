@@ -1,0 +1,89 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("org.springframework.web.reactive.result.condition" package nil nil [624 682])
+            ("java.net.URISyntaxException" include nil nil [684 719])
+            ("java.util.Collections" include nil nil [720 749])
+            ("org.junit.Ignore" include nil nil [751 775])
+            ("org.junit.Test" include nil nil [776 798])
+            ("org.springframework.http.HttpHeaders" include nil nil [800 844])
+            ("org.springframework.http.HttpMethod" include nil nil [845 888])
+            ("org.springframework.mock.http.server.reactive.test.MockServerHttpRequest" include nil nil [889 969])
+            ("org.springframework.mock.web.test.server.MockServerWebExchange" include nil nil [970 1040])
+            ("org.springframework.web.bind.annotation.RequestMethod" include nil nil [1041 1102])
+            ("org.springframework.web.server.ServerWebExchange" include nil nil [1103 1159])
+            ("RequestMethodsRequestConditionTests" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("getMatchingCondition" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1482 1724])
+                    ("getMatchingConditionWithHttpHead" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1734 1985])
+                    ("getMatchingConditionWithEmptyConditions" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1995 2403])
+                    ("getMatchingConditionWithCustomMethod" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2422 2728])
+                    ("getMatchingConditionWithCorsPreFlight" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2747 3307])
+                    ("compareTo" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3317 4074])
+                    ("combine" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4084 4407])
+                    ("testMatch" function
+                       (:throws ("Exception")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("condition" variable (:type "RequestMethodsRequestCondition") (reparse-symbol formal_parameters) [4434 4474])
+                            ("method" variable (:type "RequestMethod") (reparse-symbol formal_parameters) [4476 4496]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4411 4755])
+                    ("testNoMatch" function
+                       (:throws ("Exception")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("condition" variable (:type "RequestMethodsRequestCondition") (reparse-symbol formal_parameters) [4783 4823])
+                            ("method" variable (:type "RequestMethod") (reparse-symbol formal_parameters) [4825 4845]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4758 4983])
+                    ("getExchange" function
+                       (:throws ("URISyntaxException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("method" variable (:type "String") (reparse-symbol formal_parameters) [5024 5037]))                          
+                        :type "ServerWebExchange")
+                        (reparse-symbol class_member_declaration) [4986 5169]))                  
+                :type "class")
+                nil [1365 5172]))          
+      :file "RequestMethodsRequestConditionTests.java"
+      :pointmax 5173
+      :fsize 5172
+      :lastmodtime '(23706 20868 658769 421000)
+      :unmatched-syntax '((MULT 1263 . 1264) (DOT 1262 . 1263) (IDENTIFIER 1249 . 1262) (DOT 1248 . 1249) (IDENTIFIER 1238 . 1248) (DOT 1237 . 1238) (IDENTIFIER 1233 . 1237) (DOT 1232 . 1233) (IDENTIFIER 1229 . 1232) (DOT 1228 . 1229) (IDENTIFIER 1213 . 1228) (DOT 1212 . 1213) (IMPORT 1195 . 1201) (STATIC 1202 . 1208) (IDENTIFIER 1209 . 1212) (MULT 1192 . 1193) (DOT 1191 . 1192) (IDENTIFIER 1185 . 1191) (DOT 1184 . 1185) (IDENTIFIER 1179 . 1184) (DOT 1178 . 1179) (IMPORT 1161 . 1167) (STATIC 1168 . 1174) (IDENTIFIER 1175 . 1178))))
+  :file "!Users!jessie!source_code!spring-framework!spring-webflux!src!test!java!org!springframework!web!reactive!result!condition!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

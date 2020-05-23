@@ -1,12 +1,3 @@
-sh java_project.sh 
-source java_project.sh 
-sh java_project.sh 
-chmod +x java_project.sh 
-./java_project.sh 
-pwd
-cp java_project.sh java_project
-source java_project
-pwd
 ./java_project.sh
 ./java_project.sh
 pwd
@@ -126,3 +117,12 @@ git init
 cd ~/.emacs.d/lisp/
 ls
 git diff init-ui.el 
+cd go_workspace/
+ls
+cd src/
+cd study_go_emacsProject/
+ls
+cd main/
+ls
+go run hello.go 
+go run number.go 

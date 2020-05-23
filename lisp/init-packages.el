@@ -185,4 +185,8 @@
 (setq find-file-visit-truename t)
 (setq auto-revert-check-vc-info t)
 
+(setq inferior-lisp-program "/usr/local/Cellar/sbcl/2.0.2/bin/sbcl")
+(setq slime-contribs '(slime-fancy))
+(require 'slime-autoloads)
+
 (provide 'init-packages)

@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- package-install
- format-find-file
- ivy-mode
- helm-mode
  dired
- eshell
- all-the-icons-insert
+ find-name-dired
+ occur
+ customize-group
+ customize
+ package-list-packages
+ describe-mode
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 34)
- (eshell . 22)
+ (package-list-packages . 33)
+ (eshell . 17)
  (info . 1)
  (exit-minibuffer . 1)
  (package-autoremove . 3)
@@ -30,7 +30,7 @@
  (java-mode . 5)
  (java-imports-add-import-with-package . 3)
  (java-imports-add-import-dwim . 3)
- (list-packages . 8)
+ (list-packages . 5)
  (company-etags . 1)
  (company-elisp . 2)
  (package-menu-mark-upgrades . 2)
@@ -38,7 +38,7 @@
  (package-menu-mark-obsolete-for-deletion . 2)
  (package-menu-refresh . 2)
  (image-mode . 1)
- (ielm . 3)
+ (ielm . 1)
  (dash-at-point . 1)
  (describe-font . 6)
  (dash-at-point-with-docset . 1)
@@ -55,39 +55,15 @@
  (occur . 4)
  (customize-group . 11)
  (imenu . 1)
- (helm-ag . 7)
+ (helm-ag . 2)
  (flycheck-mode . 3)
- (package-install . 11)
+ (package-install . 2)
  (package-show-package-list . 1)
  (package-reinstall . 1)
  (package-refresh-contents . 1)
  (describe-mode . 1)
  (evil-mode . 2)
  (customize . 2)
- (window-swap-states . 1)
- (window-divider-mode . 1)
- (org-mode . 3)
- (org-pomodoro . 2)
- (org-edit-src-code . 1)
- (org-tags-sparse-tree . 7)
- (org-capture . 2)
- (projectile-mode . 4)
- (find-name-dired . 8)
- (dired . 5)
- (dired-tree-up . 2)
- (term . 3)
- (grep-find . 1)
- (find-grep . 2)
- (helm-find . 4)
- (helm-mode . 2)
- (json-pretty-print-buffer . 7)
- (json-pretty-print . 3)
- (go-mode . 3)
- (json-pretty-print-buffer-ordered . 1)
- (text-mode . 1)
- (variable-pitch-mode . 2)
- (all-the-icons-install-fonts . 2)
- (all-the-icons-insert . 1)
- (ivy-mode . 1)
- (format-find-file . 1)
+ (dired . 2)
+ (find-name-dired . 1)
 )
